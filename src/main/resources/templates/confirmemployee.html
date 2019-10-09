@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Confirmation</title>
+</head>
+<body>
+    <p th:inline="text">Employee name is [[${employee.firstname}]] [[${employee.lastname}]].<br />
+    Employee DOB is [[${employee.dob}]] and SSN is [[${employee.ssn}]].<br />
+    </p>
+    </body>
+</html>
